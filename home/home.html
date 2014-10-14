@@ -3,6 +3,8 @@
 <head>
 	<meta charset='utf-8'/>
 	<title>New Project</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css"/>
+    <link rel='stylesheet' href='main.css'/>
 </head>
 <body>
 	<header>
@@ -21,7 +23,7 @@
 		<p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>	
 		<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 	</section>
-	<section id='faq'>
+	<section id='faq' class='faq'>
 	<h1>FAQ</h1>
 		<dl>
 			<dt>1. Lorem Ipsum ?</dt>
@@ -44,11 +46,11 @@
 			<fieldset>
 				<legend>REGISTER FORM</legend>
 				<label for='email'>Email:</label>
-				<input type='email' name='email'>
+				<input type='email' name='email' id='email'>
 				<label for='password'>Password</label>
-				<input type='password' name='password'>
+				<input type='password' name='password' id='password'>
 				<label for='confirm_password'>Confirm Password</label>
-				<input type='password' name='confirm_password'>
+				<input type='password' name='confirm_password' id='confirm_password'>
 				<input type='submit'>
 			</fieldset>
 		</form>
